@@ -1,4 +1,4 @@
 # Parent
-## [welcome](welcome.md)
+## [Welcome](Welcome.md)
 ### [WelcomeChildNode](WelcomeChildNode.md)
 ## [404](404.md)
