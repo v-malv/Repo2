@@ -1,2 +1,2 @@
-# ChildNode
+# WelcomeChildNode
 Child node of Welcome
