@@ -13,6 +13,7 @@ Lase: Ticket
 <strong>Production Link:<strong>
 <br/>
 <a href="https://int.msdn.microsoft.com/en-us/powershell/dsc/overview">Link1</a>
+<br/>
 <a href="http://int.msdn.microsoft.com/virtualization">Link2</a>
 
 ## Step 1 ##
