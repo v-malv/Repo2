@@ -1,6 +1,6 @@
 
 ---
-Robots: INDEX, FOLLOW
+ROBOTS: INDEX, FOLLOW
 ---
 
 ---
