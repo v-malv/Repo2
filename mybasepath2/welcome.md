@@ -1,3 +1,8 @@
+
+---
+Robots: INDEX, FOLLOW
+---
+
 ---
 testname: TestingName
 Lase: Ticket
