@@ -1,5 +1,5 @@
 ---
-Title: This is title
+title: This is title
 DescriptionL: This is description
 Keywords: keywords, html
 ROBOTS: INDEX, FOLLOW
