@@ -27,6 +27,9 @@ This is step 22
 ### SubStep 1 ###
 This is SubStep 1
 
+## Step 3 ##
+This is step 3
+
 <table border="1">
  <tr>
     <th>Site</th/>
