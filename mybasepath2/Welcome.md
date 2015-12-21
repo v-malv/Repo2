@@ -51,3 +51,13 @@ This is SubStep 1
  ```powershell
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
+ <br/>
+<strong>Hello TechNet:</strong>
+<br/>
+<a href="https://int.technet.microsoft.com/en-us/">Portal</a>
+<br/>
+<strong>Production Link:<strong>
+<br/>
+<a href="https://technet.microsoft.com/en-us/library">Link1</a>
+<br/>
+<a href="https://int.technet.microsoft.com/en-us/libraryn">Link2</a>
