@@ -17,6 +17,8 @@ testname: TestingName
 <a href="https://int.msdn.microsoft.com/en-us/powershell/dsc/overview">Link1</a>
 <br/>
 <a href="http://int.msdn.microsoft.com/virtualization">Link2</a>
+<br/>
+<a href="https://int.msdn.microsoft.com/en-us/powershell/dsc/userresource">Link3</a>
 
 ## Step 1 ##
 This is step 1
@@ -64,10 +66,8 @@ Console.WriteLine(string2b);
 //       The path is C:\PublicDocuments\Report1.doc
 //       The path is C:\PublicDocuments\Report1.doc      
  ```
- 
  ```C++-i
- using namespace System;
-
+using namespace System;
 void main()
 {
    String^ string1 = "This is a string created by assignment.";
