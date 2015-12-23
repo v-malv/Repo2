@@ -50,6 +50,8 @@ This is SubStep 1
  </tr>
 </table>
 
+## <a id="Code_table"> </a>Code table
+
  ```powershell-i
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
