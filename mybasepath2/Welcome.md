@@ -49,7 +49,7 @@ This is SubStep 1
     <td>https://int.technet.microsoft.com/en-us/library/</td>
  </tr>
 </table>
-
+<!-- BEGINSECTION class="tabbedCodeSnippets"-->
  ```powershell-i
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
@@ -120,6 +120,7 @@ refer to the information indirectly. The quote marks are not part
 of the literal.
 */
 ```
+<!-- ENDSECTION -->
  
  <br/>
 <strong>Hello TechNet:</strong>
@@ -156,11 +157,4 @@ console.log('Event "' + event.subject + '"')
 ```
 <!-- ENDSECTION -->
 
-Scenario  |Permission
-------------- | ------------- |
-Password Sync|<ul><li> Replicate Directory Changes. </li></ul><ul><li> Replicate Directory Changes All.</li></ul>
-Exchange Hybrid Deployment|See [Office 365 Exchange Hybrid AAD Sync write-back attributes and permissions](https://msdn.microsoft.com/library/azure/dn757602.aspx#exchange).
-Password Write-back | <li>Change Password</li><li>Reset password</li>
-User, Group, and Device Write-back|Write permissions to the directory objects and attributes that you wish to 'write-back'
-Single Sign-On and AD FS| Domain admin permissions in the domain in which your federated servers are located. 
 
