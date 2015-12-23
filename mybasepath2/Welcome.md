@@ -52,6 +52,7 @@ This is SubStep 1
 
 ## <a id="Code_table"> </a>Code table
 
+<!-- BEGINSECTION class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar" -->
  ```powershell-i
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
@@ -122,7 +123,7 @@ refer to the information indirectly. The quote marks are not part
 of the literal.
 */
 ```
- 
+<!-- ENDSECTION -->
  <br/>
 <strong>Hello TechNet:</strong>
 <br/>
