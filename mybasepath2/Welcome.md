@@ -132,7 +132,7 @@ of the literal.
 <br/>
 <a href="https://int.technet.microsoft.com/en-us/libraryn">Link2</a>
 
-<!-- BEGINSECTION class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar" -->
+
 ```cs-i
 var outlookClient = await CreateOutlookClientAsync("Calendar");
 var events = await outlookClient.Me.Events
@@ -154,4 +154,4 @@ console.log('Event "' + event.subject + '"')
     console.log(error);
 });
 ```
-<!-- ENDSECTION -->
+
