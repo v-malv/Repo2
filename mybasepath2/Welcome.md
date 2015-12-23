@@ -158,7 +158,7 @@ console.log('Event "' + event.subject + '"')
 
 Scenario  |Permission
 ------------- | ------------- |
-Password Sync|        <li> Replicate Directory Changes. </li>   <li> Replicate Directory Changes All.</li>
+Password Sync|        <ul><li> Replicate Directory Changes. </li></ul>  <li> Replicate Directory Changes All.</li>
 Exchange Hybrid Deployment|See [Office 365 Exchange Hybrid AAD Sync write-back attributes and permissions](https://msdn.microsoft.com/library/azure/dn757602.aspx#exchange).
 Password Write-back | <li>Change Password</li><li>Reset password</li>
 User, Group, and Device Write-back|Write permissions to the directory objects and attributes that you wish to 'write-back'
