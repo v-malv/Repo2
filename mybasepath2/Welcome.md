@@ -48,9 +48,79 @@ This is SubStep 1
  </tr>
 </table>
 
- ```powershell
+ ```powershell-i
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
+ 
+ ```C#-i
+string string1 = "This is a string created by assignment.";
+Console.WriteLine(string1);
+string string2a = "The path is C:\\PublicDocuments\\Report1.doc";
+Console.WriteLine(string2a);
+string string2b = @"The path is C:\PublicDocuments\Report1.doc";
+Console.WriteLine(string2b);
+// The example displays the following output:
+//       This is a string created by assignment.
+//       The path is C:\PublicDocuments\Report1.doc
+//       The path is C:\PublicDocuments\Report1.doc      
+ ```
+ 
+ ```C++-i
+ using namespace System;
+
+void main()
+{
+   String^ string1 = "This is a string created by assignment.";
+   Console::WriteLine(string1);
+   String^ string2a = "The path is C:\\PublicDocuments\\Report1.doc";
+   Console::WriteLine(string2a);
+}
+// The example displays the following output: 
+//       This is a string created by assignment. 
+//       The path is C:\PublicDocuments\Report1.doc
+```
+```VB-i
+Dim chars() As Char = { "w"c, "o"c, "r"c, "d"c }
+
+' Create a string from a character array.
+Dim string1 As New String(chars)
+Console.WriteLine(string1)
+
+' Create a string that consists of a character repeated 20 times.
+Dim string2 As New String("c"c, 20)
+Console.WriteLine(string2)
+' The example displays the following output:
+'       word
+'       cccccccccccccccccccc      
+```
+
+```javascript-i
+function inchestometers(inches)
+   {
+   if (inches < 0)
+      return -1;
+   else
+      {
+      var meters = inches / 39.37;
+      return meters;
+      }
+   }
+
+var inches = 12;
+var meters = inchestometers(inches);
+document.write("the value in meters is " + meters);
+
+/*
+This is a multiline comment that explains the preceding code statement.
+
+The statement assigns a value to the aGoodIdea variable. The value, 
+which is contained between the quote marks, is called a literal. A 
+literal explicitly and directly contains information; it does not 
+refer to the information indirectly. The quote marks are not part 
+of the literal.
+*/
+```
+ 
  <br/>
 <strong>Hello TechNet:</strong>
 <br/>
