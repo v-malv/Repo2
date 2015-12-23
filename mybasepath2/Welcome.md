@@ -53,7 +53,7 @@ This is SubStep 1
  ```powershell-i
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
- <!-- BEGINSECTION class="tabbedCodeSnippets"-->
+ 
  ```C#-i
 string string1 = "This is a string created by assignment.";
 Console.WriteLine(string1);
@@ -120,7 +120,6 @@ refer to the information indirectly. The quote marks are not part
 of the literal.
 */
 ```
-<!-- ENDSECTION -->
  
  <br/>
 <strong>Hello TechNet:</strong>
@@ -132,29 +131,4 @@ of the literal.
 <a href="https://technet.microsoft.com/en-us/library">Link1</a>
 <br/>
 <a href="https://int.technet.microsoft.com/en-us/libraryn">Link2</a>
-
-<!-- BEGINSECTION class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar" -->
-```cs-i
-var outlookClient = await CreateOutlookClientAsync("Calendar");
-var events = await outlookClient.Me.Events
-  .Take(10)
-  .ExecuteAsync();
- 
-foreach(var calendarEvent in events.CurrentPage)
-{
-  System.Diagnostics.Debug.WriteLine("Event '{0}'.", calendarEvent.Subject);
-}
- 
-```
-```javascript-i
-outlookClient.me.events.getEvents().fetch().then(function (result) {
-    result.currentPage.forEach(function (event) {
-console.log('Event "' + event.subject + '"')
-    });
-}, function(error) {
-    console.log(error);
-});
-```
-<!-- ENDSECTION -->
-
 
