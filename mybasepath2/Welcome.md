@@ -49,11 +49,11 @@ This is SubStep 1
     <td>https://int.technet.microsoft.com/en-us/library/</td>
  </tr>
 </table>
-<!-- BEGINSECTION class="tabbedCodeSnippets"-->
+
  ```powershell-i
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
- 
+ <!-- BEGINSECTION class="tabbedCodeSnippets"-->
  ```C#-i
 string string1 = "This is a string created by assignment.";
 Console.WriteLine(string1);
