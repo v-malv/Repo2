@@ -52,7 +52,7 @@ This is SubStep 1
 
 ## <a id="Code_table"> </a>Code table
 
-<!-- BEGINSECTION class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar" -->
+<!-- BEGINSECTION class="tabbedCodeSnippets"-->
  ```powershell-i
  get-vm -Name <VM Name> | checkpoint-vm -snapshotname <name for snapshot>
  ```
@@ -124,6 +124,7 @@ of the literal.
 */
 ```
 <!-- ENDSECTION -->
+
  <br/>
 <strong>Hello TechNet:</strong>
 <br/>
