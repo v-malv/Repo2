@@ -1,4 +1,4 @@
-{ 
+   { 
 2     "method": "GET", 
 3     "resourceFormat": "https://outlook.office365.com/api/v1.0/me/calendars/{calendar_id}", 
 4     "requestUrl": "https://outlook.office365.com/api/v1.0/me/calendars/AAMkAGI2NGVhZTVlLTI1OGMtNDI4My1iZmE5LTA5OGJiZGEzMTc0YQBGAAAAAADUuTJK1K9aTpCdqXop_4NaBwCd9nJ-tVysQos2hTfspaWRAAAAAAEGAACd9nJ-tVysQos2hTfspaWRAAADTGuLAAA=", 
@@ -23,3 +23,4 @@
 23         "ChangeKey": "nfZyf7VcrEKLNoU37KWlkQAAA0x0+w==" 
 24     } 
 25 } 
+
