@@ -8,7 +8,7 @@ Title: Outlook Calendar REST API reference
 ## <a id="Swagger"> </a> Swagger
 
 
-[!code-REST-i[try](try.json)]
+[!code-REST-i[try](try/try.json)]
 
 
 ## <a id="Code_table"> </a>Code table
