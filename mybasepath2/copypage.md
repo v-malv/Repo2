@@ -36,15 +36,14 @@ console.log('Event "' + event.subject + '"')
     console.log(error);
 });
 ```
-```fs-i
-using namespace System;
-void main()
-{
-   String^ string1 = "This is a string created by assignment.";
-   Console::WriteLine(string1);
-   String^ string2a = "The path is C:\\PublicDocuments\\Report1.doc";
-   Console::WriteLine(string2a);
-}
+```javascript-i
+outlookClient.me.events.getEvents().fetch().then(function (result) {
+    result.currentPage.forEach(function (event) {
+console.log('Event "' + event.subject + '"')
+    });
+}, function(error) {
+    console.log(error);
+});
 ```
 <!-- ENDSECTION -->
 
