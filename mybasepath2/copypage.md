@@ -36,6 +36,17 @@ console.log('Event "' + event.subject + '"')
     console.log(error);
 });
 ```
+```
+ ```C++-i
+using namespace System;
+void main()
+{
+   String^ string1 = "This is a string created by assignment.";
+   Console::WriteLine(string1);
+   String^ string2a = "The path is C:\\PublicDocuments\\Report1.doc";
+   Console::WriteLine(string2a);
+}
+```
 <!-- ENDSECTION -->
 
 
