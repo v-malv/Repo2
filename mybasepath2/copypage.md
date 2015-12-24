@@ -36,8 +36,8 @@ console.log('Event "' + event.subject + '"')
     console.log(error);
 });
 ```
-```
- ```C++-i
+
+```C++-i
 using namespace System;
 void main()
 {
