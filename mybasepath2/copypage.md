@@ -36,7 +36,7 @@ console.log('Event "' + event.subject + '"')
     console.log(error);
 });
 ```
-```F#-i
+```fs-i
 using namespace System;
 void main()
 {
