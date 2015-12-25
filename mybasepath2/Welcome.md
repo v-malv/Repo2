@@ -19,6 +19,8 @@ testname: TestingName
 <a href="http://int.msdn.microsoft.com/virtualization">Link2</a>
 <br/>
 <a href="https://int.msdn.microsoft.com/en-us/powershell/dsc/userresource">Link3</a>
+<br/>
+<a href="https://msdnnext.redmond.corp.microsoft.com/en-us/new/newschema/openpublish/azure_all_in_one?branch=try">Swagger</a>
 
 ## Step 1 ##
 This is step 1
