@@ -4,7 +4,7 @@ DescriptionL: This is description
 Keywords: keywords, html
 ROBOTS: INDEX, FOLLOW
 testname: TestingName
-redirect_url: https://msdn.microsoft.com/en-us/
+redirect_url: msdn.microsoft.com/
 ---
 # Welcome
 >Hello, this is a __testing__ page
