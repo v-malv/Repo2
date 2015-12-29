@@ -27,6 +27,9 @@ console.log('Event "' + event.subject + '"')
 ```
 <!-- ENDSECTION -->
 
+## <a id="Code_table"> </a>Code table
+
+<!-- BEGINSECTION class="tabbedCodeSnippets" -->
 ```C#-i
 string string1 = "This is a string created by assignment.";
 Console.WriteLine(string1);
@@ -39,6 +42,7 @@ Console.WriteLine(string2b);
 //       The path is C:\PublicDocuments\Report1.doc
 //       The path is C:\PublicDocuments\Report1.doc      
  ```
+<!-- ENDSECTION -->
 
 ```javascript-i
 function inchestometers(inches)
