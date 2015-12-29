@@ -1,7 +1,7 @@
 # codesnippet
 Testing codesnippet page.
 
-## <a id="Code_table"> </a>Code table
+## Example 1
 
 <!-- BEGINSECTION class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar" -->
 ```cs-i
@@ -27,7 +27,7 @@ console.log('Event "' + event.subject + '"')
 ```
 <!-- ENDSECTION -->
 
-## <a id="Code_table"> </a>Code table
+## Example 2
 
 <!-- BEGINSECTION class="tabbedCodeSnippets" -->
 ```cs-i
@@ -44,6 +44,7 @@ Console.WriteLine(string2b);
  ```
 <!-- ENDSECTION -->
 
+## Example 3
 <!-- BEGINSECTION class="tabbedCodeSnippets" -->
 ```javascript-i
 function inchestometers(inches)
