@@ -1,5 +1,5 @@
 ---
-redirect_url: https://msdnnext.redmond.corp.microsoft.com/en-us/mybasepath2/b
+redirect_url: b
 ---
 # redirect
 redirect page
