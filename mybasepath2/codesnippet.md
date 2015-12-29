@@ -16,13 +16,21 @@ foreach(var calendarEvent in events.CurrentPage)
 }
  
 ```
-
+```javascript-i
+outlookClient.me.events.getEvents().fetch().then(function (result) {
+    result.currentPage.forEach(function (event) {
+console.log('Event "' + event.subject + '"')
+    });
+}, function(error) {
+    console.log(error);
+});
+```
 <!-- ENDSECTION -->
 
 ## <a id="Code_table"> </a>Code table
 
 <!-- BEGINSECTION class="tabbedCodeSnippets" -->
-```C#-i
+```cs-i
 string string1 = "This is a string created by assignment.";
 Console.WriteLine(string1);
 string string2a = "The path is C:\\PublicDocuments\\Report1.doc";
@@ -36,6 +44,7 @@ Console.WriteLine(string2b);
  ```
 <!-- ENDSECTION -->
 
+<!-- BEGINSECTION class="tabbedCodeSnippets" -->
 ```javascript-i
 function inchestometers(inches)
    {
@@ -62,5 +71,6 @@ refer to the information indirectly. The quote marks are not part
 of the literal.
 */
 ```
+<!-- ENDSECTION -->
 
 
