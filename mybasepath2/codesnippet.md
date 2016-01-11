@@ -74,4 +74,33 @@ of the literal.
 ```
 <!-- ENDSECTION -->
 
+## Example 4
+<!-- BEGINSECTION class="tabbedCodeSnippets" -->
+```javascript-i
+function inchestometers(inches)
+   {
+   if (inches < 0)
+      return -1;
+   else
+      {
+      var meters = inches / 39.37;
+      return meters;
+      }
+   }
+
+var inches = 12;
+var meters = inchestometers(inches);
+document.write("the value in meters is " + meters);
+
+/*
+This is a multiline comment that explains the preceding code statement.
+
+The statement assigns a value to the aGoodIdea variable. The value, 
+which is contained between the quote marks, is called a literal. A 
+literal explicitly and directly contains information; it does not 
+refer to the information indirectly. The quote marks are not part 
+of the literal.
+*/
+```
+<!-- ENDSECTION -->
 
