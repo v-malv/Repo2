@@ -1,4 +1,4 @@
-# codesnippet
+# Codesnippet
 Testing codesnippet page.
 
 ## Example 1
