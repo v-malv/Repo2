@@ -6,6 +6,7 @@
 #### [b](b.md)
 #### [c](c.md)
 #### [d](d.md)
+## [codesnippet](codesnippet.md)
 ## [404](404.md)
 ## [copypage](copypage.md)
 
