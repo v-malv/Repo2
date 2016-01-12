@@ -1,5 +1,5 @@
 ---
-redirect_url: b
+redirect_url: Metadate
 ---
 # redirect
 redirect page
